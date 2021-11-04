@@ -82,13 +82,13 @@ p {
   background: #563434;
 }
 
-.header {
-  background: radial-gradient(#fff, #ffd6d6);
-}
+/* .header {
+  background: radial-gradient(#fff, #3a7bd5); 
+} */
 
-.header .row {
+/* .header .row {
   margin-top: 70px;
-}
+} */
 
 .categories {
   margin: 70px 0;
@@ -161,7 +161,7 @@ p {
 }
 
 .offer {
-  background: radial-gradient(#fff, #ffd6d6);
+  /* background: radial-gradient(#fff, #3a7bd5); */
   margin-top: 80px;
   padding: 30px 0;
 }
@@ -433,5 +433,8 @@ input:focus {
   .single-product h1 {
     font-size: 26px;
     line-height: 32px;
+  }
+  .btn {
+    margin-left: 30px;
   }
 }
