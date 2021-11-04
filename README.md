@@ -1,1 +1,1 @@
-# eCommerce proyect page about Linux Distributions, developed only with HTML5 and CSS3.
+# eCommerce proyect page, developed only with HTML5, CSS3 and JavaScript.
