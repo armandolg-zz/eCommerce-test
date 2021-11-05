@@ -37,6 +37,23 @@ p {
   color: #555;
 }
 
+button {
+  font-size: 0.8rem;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  background-color: #1d1d1d;
+  color: aliceblue;
+  padding: 13px 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #3a3833;
+}
+
 .container {
   max-width: 1300px;
   margin: auto;
@@ -80,15 +97,27 @@ p {
 
 .btn:hover {
   background: #563434;
+  text-decoration: underline;
 }
 
-/* .header {
-  background: radial-gradient(#fff, #3a7bd5); 
-} */
+.btn-compra {
+  display: block;
+  padding: 8px 30px;
+  margin: 30px;
+  margin-top: 0;
+  margin-left: 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+  text-align: center;
+  text-decoration: underline;
+  border: 1px solid #ff523b;
+}
 
-/* .header .row {
-  margin-top: 70px;
-} */
+.btn-compra:hover {
+  text-decoration: underline;
+  background: #ff523b;
+  color: #fff;
+}
 
 .categories {
   margin: 70px 0;
@@ -121,6 +150,24 @@ p {
 
 .col-4 img {
   width: 100%;
+  transition: 0.3s all;
+}
+
+.col-4:hover img {
+  opacity: 0.8;
+}
+
+.col-4 .buy-btn {
+  background: #ff523b;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 0.3s all;
+  margin-top: 10px;
+}
+
+.col-4:hover .buy-btn {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .title {
@@ -306,7 +353,7 @@ ul {
 
 .row-2 {
   justify-content: space-between;
-  margin: 100px auto 50px;
+  margin: 50px auto 50px;
 }
 
 select {
